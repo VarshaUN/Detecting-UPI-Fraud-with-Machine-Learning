@@ -1,4 +1,4 @@
-# 💸 Detecting UPI Fraud with Machine Learning: Leveraging Festive Patterns
+#  Detecting UPI Fraud with Machine Learning: Leveraging Festive Patterns
 
 India’s UPI handles over **150 billion transactions annually**, but loses **₹1,200 crore** to fraud.  
 This project uses machine learning to detect fraud in a **100,000-transaction** dataset, where **3.198%** are fraudulent.  
@@ -6,7 +6,7 @@ A key insight? Fraud spikes during festivals  **4% vs. 2%** captured by a custom
 
 ---
 
-## 📁 Dataset Overview
+##  Dataset Overview
 
 - **Size**: 100,000 synthetic UPI transactions  
 - **Fraud Rate**: 3.198%  
@@ -20,7 +20,7 @@ All features were preprocessed using **StandardScaler** and **OneHotEncoder**. N
 
 ---
 
-## 🧠 Approach
+##  Approach
 
 We trained two models to detect fraud:
 
@@ -38,7 +38,7 @@ The `festival_flag` helped capture seasonal fraud surges — **4% during festiva
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model | Accuracy | Precision | Recall | F1-score | AUC  |
 |-------|----------|-----------|--------|----------|------|
@@ -52,11 +52,11 @@ The `festival_flag` helped capture seasonal fraud surges — **4% during festiva
 
 ---
 
-## 🎯 Conclusion
+##  Conclusion
 
 This project shows that **Logistic Regression** is a strong baseline for UPI fraud detection, especially when paired with features like `festival_flag`.  
 While **SVM** struggled, the insights gained pave the way for smarter fraud detection systems that can protect platforms like **PhonePe** and **Google Pay** from massive losses.
 
 ---
 
-> 💡 _Machine learning can make digital payments safer — one transaction at a time._
+>  _Machine learning can make digital payments safer — one transaction at a time._
