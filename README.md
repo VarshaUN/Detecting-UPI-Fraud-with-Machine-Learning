@@ -6,6 +6,9 @@ A key insight? Fraud spikes during festivals  **4% vs. 2%** captured by a custom
 
 ---
 
+My Research Paper and Poster : https://drive.google.com/drive/folders/1I8j0d0WX422gTLWlLI5kU8ePismby5Ng?usp=drive_link
+
+
 ##  Dataset Overview
 
 - **Size**: 100,000 synthetic UPI transactions  
